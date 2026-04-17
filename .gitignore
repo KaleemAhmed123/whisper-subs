@@ -1,0 +1,31 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Whisper model cache (downloaded automatically, no need to commit)
+# Models are stored in ~/.cache/whisper by default
+*.pt
+
+# Config with personal paths — users create their own from config.env
+# (we DO commit config.env as a template)
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
